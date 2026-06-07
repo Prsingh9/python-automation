@@ -27,5 +27,5 @@ def count_log_levels(filepath) :
 	print(f"last ERROR: {last_error}")
 	return dict(counts)
 
-result = count_log_levels('test.log')
+result = count_log_levels('sample_data/test.log')
 print(result)
